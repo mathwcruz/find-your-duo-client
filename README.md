@@ -45,6 +45,13 @@ To run the application on the web, follow the instructions from your terminal:
 - run `yarn` to install the dependencies of the project
 - Run `yarn dev` to run the application, will open at the address `localhost:5173`
 
+## 🎲 How to run the api
+For a better experience, you need to run the server on your local machine. For that, follow the instructions from your terminal:
+- `git clone https://github.com/mathwcruz/find-your-duo-api.git` to clone the repository
+- `cd find-your-duo-api` and `code .`
+- run `yarn` to install the dependencies of the project
+- Run `yarn dev` to run the application, will open at the address `localhost:3333`
+
 ### Autor
 ---
 
