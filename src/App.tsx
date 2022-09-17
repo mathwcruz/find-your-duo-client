@@ -1,9 +1,9 @@
 import { useCallback, useEffect, useState } from "react";
 import * as Dialog from "@radix-ui/react-dialog";
 
-import { CreateAdModal } from "./components/CreateAdModal";
+import { PublishAdModal } from "./components/PublishAdModal";
 import { GameCard } from "./components/GameCard";
-import { CreateAdBanner } from "./components/CreateAdBanner";
+import { PublishAdBanner } from "./components/PublishAdBanner";
 import { Loading } from "./components/Loading";
 import { Game } from "./types/Game";
 import { api } from "./service/api";
@@ -52,9 +52,9 @@ const App = () => {
       )}
 
       <Dialog.Root>
-        <CreateAdBanner />
+        <PublishAdBanner />
 
-        <CreateAdModal games={games} />
+        <PublishAdModal games={games} />
       </Dialog.Root>
     </div>
   );
